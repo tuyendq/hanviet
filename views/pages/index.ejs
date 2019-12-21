@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <% include ../partials/head %>    
-  </head>
-  <body>
-    <header>
-      <% include ../partials/header %>    
-    </header>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
 
-    <h2>Characters</h2>
-    <ul>  
-      <% characters.forEach(function(character) { %>
-        <li><%= character.id %> - <%= character.ch %></li>
-    <% }); %>      
-    </ul>
+<head>
+  <title><%= title %> - <%= charOfDay.ch %></title>
+  <% include ../partials/head %>
+</head>
 
-    <footer>
-      <% include ../partials/footer %>    
-    </footer>
-  </body>
+<body>
+  <header>
+    <% include ../partials/header %>
+  </header>
+
+  <div id="wrapper">
+    <svg xmlns="http://www.w3.org/2000/svg" id="grid-background-target">
+        <line x1="0" y1="0" x2="600" y2="0" stroke="#111" />
+        <line x1="0" y1="0" x2="0" y2="600" stroke="#111" />
+        <line x1="0" y1="0" x2="600" y2="600" stroke="#DDD" />
+        <line x1="0" y1="600" x2="600" y2="600" stroke="#111" />
+        <line x1="600" y1="600" x2="600" y2="0" stroke="#111" />
+        <line x1="600" y1="0" x2="0" y2="600" stroke="#DDD" />
+        <line x1="300" y1="0" x2="300" y2="600" stroke="#DDD" />
+        <line x1="0" y1="300" x2="600" y2="300" stroke="#DDD" />
+    </svg>
+</div>
+
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+
+  <script>
+    var char = '<%= charOfDay.ch %>';
+    var writer = HanziWriter.create('grid-background-target', char, {
+      strokeColor: '#000000',
+      radicalColor: '#5A0008'
+    });
+    writer.loopCharacterAnimation();
+  </script>
+
+</body>
+
 </html>

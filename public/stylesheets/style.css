@@ -6,3 +6,6 @@ body {
 a {
   color: #00B7FF;
 }
+
+#wrapper{width: 50rem; margin: auto}
+#grid-background-target{width: 37.5rem; height: 37.5rem; padding: 1rem;}
