@@ -1,13 +1,702 @@
 [
-    { "id": 1, "cn": "的", "en": "", "vi": "đích"},
-    { "id": 2, "cn": "一", "en": "one", "vi": "nhất"},
-    { "id": 3, "cn": "了", "en": "", "vi": "liễu"},
-    { "id": 4, "cn": "是", "en": "", "vi": "thị"},
-    { "id": 5, "cn": "我", "en": "I", "vi": "ngã"},
-    { "id": 6, "cn": "不", "en": "", "vi": "bất"},
-    { "id": 7, "cn": "在", "en": "", "vi": "tại"},
-    { "id": 8, "cn": "人", "en": "person", "vi": "nhân"},
-    { "id": 9, "cn": "们", "en": "", "vi": "môn"},
-    { "id": 10, "cn": "有", "en": "", "vi": "hữu"},
-    { "id": 10, "cn": "轮", "en": "wheel", "vi": "luân"}
+  {
+    "id": "1",
+    "cn": "的",
+    "pinyin": "de",
+    "en": "(possessive particle), of / really and truly / aim, clear",
+    "vi": "đích"
+  },
+  {
+    "id": "2",
+    "cn": "一",
+    "pinyin": "yī / yì ／yí",
+    "en": "one / single / a(n)",
+    "vi": "nhất"
+  },
+  {
+    "id": "3",
+    "cn": "是",
+    "pinyin": "shì",
+    "en": "is, are, am, yes to be",
+    "vi": "thị"
+  },
+  {
+    "id": "4",
+    "cn": "不",
+    "pinyin": "bù",
+    "en": "(negative prefix) no, not",
+    "vi": "bất"
+  },
+  {
+    "id": "5",
+    "cn": "了",
+    "pinyin": "le／liǎo",
+    "en": "(modal particle intensifying preceding clause), (past tense marker) / to know, to understand, to know",
+    "vi": "liễu"
+  },
+  {
+    "id": "6",
+    "cn": "人",
+    "pinyin": "rén",
+    "en": "man, person, people",
+    "vi": "nhân"
+  },
+  {
+    "id": "7",
+    "cn": "我",
+    "pinyin": "wǒ",
+    "en": "I, me, myself",
+    "vi": "ngã"
+  },
+  {
+    "id": "8",
+    "cn": "在",
+    "pinyin": "zài",
+    "en": "(located) at, in, exist",
+    "vi": "tại"
+  },
+  {
+    "id": "9",
+    "cn": "有",
+    "pinyin": "yǒu",
+    "en": "to have, there is, there are, to exist, to be",
+    "vi": "hữu"
+  },
+  {
+    "id": "10",
+    "cn": "他",
+    "pinyin": "tā",
+    "en": "he, him",
+    "vi": "tha"
+  },
+  {
+    "id": "11",
+    "cn": "这",
+    "pinyin": "zhè",
+    "en": "this/ these",
+    "vi": ""
+  },
+  {
+    "id": "12",
+    "cn": "为",
+    "pinyin": "wéi / wèi",
+    "en": "act as, take…to be, to be, to do, to serve as, to become / because of, for, to",
+    "vi": ""
+  },
+  {
+    "id": "13",
+    "cn": "之",
+    "pinyin": "zhī",
+    "en": "him, her, it",
+    "vi": "chi"
+  },
+  {
+    "id": "14",
+    "cn": "大",
+    "pinyin": "dà",
+    "en": "big, huge, large, major, great, wide, deep, oldest, eldest / doctor",
+    "vi": "đại"
+  },
+  {
+    "id": "15",
+    "cn": "来",
+    "pinyin": "lái",
+    "en": "to come",
+    "vi": "lai"
+  },
+  {
+    "id": "16",
+    "cn": "以",
+    "pinyin": "yǐ",
+    "en": "to use, take, according to, because of, in order to",
+    "vi": "dĩ"
+  },
+  {
+    "id": "17",
+    "cn": "个",
+    "pinyin": "gè",
+    "en": "(a measure word), individual",
+    "vi": ""
+  },
+  {
+    "id": "18",
+    "cn": "中",
+    "pinyin": "zhōng",
+    "en": "within, among, in, middle, center, while (doing something), during",
+    "vi": "trung"
+  },
+  {
+    "id": "19",
+    "cn": "上",
+    "pinyin": "shàng",
+    "en": "above, on, over, top, (go) up, last, previous",
+    "vi": "thượng"
+  },
+  {
+    "id": "20",
+    "cn": "们",
+    "pinyin": "men",
+    "en": "(plural marker for pronouns and a few animate nouns)",
+    "vi": "môn"
+  },
+  {
+    "id": "21",
+    "cn": "到",
+    "pinyin": "dào",
+    "en": "to (a place), until (a time), up to, to go, to arrive",
+    "vi": ""
+  },
+  {
+    "id": "22",
+    "cn": "说",
+    "pinyin": "shuō",
+    "en": "to speak, to say",
+    "vi": ""
+  },
+  {
+    "id": "23",
+    "cn": "国",
+    "pinyin": "guó",
+    "en": "country, state, nation",
+    "vi": "quốc"
+  },
+  {
+    "id": "24",
+    "cn": "和",
+    "pinyin": "hé / huò",
+    "en": "and, together, with, peace / harmony",
+    "vi": "hòa"
+  },
+  {
+    "id": "25",
+    "cn": "地",
+    "pinyin": "de / dì",
+    "en": "-ly / earth, ground, field, place, land",
+    "vi": "địa"
+  },
+  {
+    "id": "26",
+    "cn": "也",
+    "pinyin": "yě",
+    "en": "too, also, as well",
+    "vi": ""
+  },
+  {
+    "id": "27",
+    "cn": "子",
+    "pinyin": "zǐ",
+    "en": "child, son",
+    "vi": "tử"
+  },
+  {
+    "id": "28",
+    "cn": "时",
+    "pinyin": "shí",
+    "en": "time, when, hour, period, season",
+    "vi": "thời"
+  },
+  {
+    "id": "29",
+    "cn": "道",
+    "pinyin": "dào",
+    "en": "direction, way, method, road, path, principle, truth, reason, skill, method, Tao (of Taoism), a measure word, to say, to speak, to talk",
+    "vi": "đạo"
+  },
+  {
+    "id": "30",
+    "cn": "出",
+    "pinyin": "chū",
+    "en": "to go out, to come out, to occur, to produce, to go beyond, to rise, to put forth, to occur, to happen",
+    "vi": "xuất"
+  },
+  {
+    "id": "31",
+    "cn": "而",
+    "pinyin": "ér",
+    "en": "and, as well as, but (not), yet (not), (shows causal relation), (shows change of state), (shows contrast)",
+    "vi": ""
+  },
+  {
+    "id": "32",
+    "cn": "要",
+    "pinyin": "yào / yāo",
+    "en": "vital, to want, to be going to, must / demand, ask, request",
+    "vi": "yếu"
+  },
+  {
+    "id": "33",
+    "cn": "于",
+    "pinyin": "yú",
+    "en": "at, in, in regard to",
+    "vi": ""
+  },
+  {
+    "id": "34",
+    "cn": "就",
+    "pinyin": "jiù",
+    "en": "at once, then, right away, only, just",
+    "vi": ""
+  },
+  {
+    "id": "35",
+    "cn": "下",
+    "pinyin": "xià",
+    "en": "below, under, (go) down, next (as opposed to previous/last)",
+    "vi": "hạ"
+  },
+  {
+    "id": "36",
+    "cn": "得",
+    "pinyin": "dé / de / děi",
+    "en": "obtain, get, gain, to have to, must, ought to, to need to",
+    "vi": ""
+  },
+  {
+    "id": "37",
+    "cn": "可",
+    "pinyin": "kě",
+    "en": "can, may, able to, certain(ly), (particle used for emphasis)",
+    "vi": "khả"
+  },
+  {
+    "id": "38",
+    "cn": "你",
+    "pinyin": "nǐ",
+    "en": "you",
+    "vi": ""
+  },
+  {
+    "id": "39",
+    "cn": "年",
+    "pinyin": "nián",
+    "en": "year",
+    "vi": "niên"
+  },
+  {
+    "id": "40",
+    "cn": "生",
+    "pinyin": "shēng",
+    "en": "to be born, to give birth, life, to grow",
+    "vi": "sinh"
+  },
+  {
+    "id": "41",
+    "cn": "自",
+    "pinyin": "zì",
+    "en": "from, self, oneself, since",
+    "vi": "tự"
+  },
+  {
+    "id": "42",
+    "cn": "会",
+    "pinyin": "huì",
+    "en": "can, able, meet, meeting, society, union, party",
+    "vi": "hội"
+  },
+  {
+    "id": "43",
+    "cn": "那",
+    "pinyin": "nà",
+    "en": "that，those",
+    "vi": ""
+  },
+  {
+    "id": "44",
+    "cn": "后",
+    "pinyin": "hòu",
+    "en": "back, behind, rear, afterwards, after, later",
+    "vi": ""
+  },
+  {
+    "id": "45",
+    "cn": "能",
+    "pinyin": "néng",
+    "en": "can, may, capable, energy, able",
+    "vi": "năng"
+  },
+  {
+    "id": "46",
+    "cn": "对",
+    "pinyin": "duì",
+    "en": "couple, pair, to be opposite, to oppose, to face, for, to, correct (answer), to answer, to reply, to direct (towards something), right",
+    "vi": ""
+  },
+  {
+    "id": "47",
+    "cn": "着",
+    "pinyin": "zhe／zhuó／zhāo／zháo",
+    "en": "verb particle marking a continuing progress/state",
+    "vi": ""
+  },
+  {
+    "id": "48",
+    "cn": "事",
+    "pinyin": "shì",
+    "en": "matter, thing, item, work, affair",
+    "vi": "sự"
+  },
+  {
+    "id": "49",
+    "cn": "其",
+    "pinyin": "qí",
+    "en": "his, her, its, theirs, that, such, it (refers to something preceding it)",
+    "vi": ""
+  },
+  {
+    "id": "50",
+    "cn": "里",
+    "pinyin": "lǐ",
+    "en": "within, inside",
+    "vi": "lý"
+  },
+  {
+    "id": "51",
+    "cn": "所",
+    "pinyin": "suǒ",
+    "en": "actually，place",
+    "vi": ""
+  },
+  {
+    "id": "52",
+    "cn": "去",
+    "pinyin": "qù",
+    "en": "to go, to leave, to depart",
+    "vi": "khứ"
+  },
+  {
+    "id": "53",
+    "cn": "行",
+    "pinyin": "háng / xíng",
+    "en": "a row, profession, professional / all right, capable, competent, okay, to go, to do, to travel, temporary, to walk, to go, will do / behavior, conduct",
+    "vi": "hành"
+  },
+  {
+    "id": "54",
+    "cn": "过",
+    "pinyin": "guò",
+    "en": "(past tense marker), to cross, to go over, to pass (time), to live, to get along, (surname)",
+    "vi": ""
+  },
+  {
+    "id": "55",
+    "cn": "家",
+    "pinyin": "jiā",
+    "en": "home, family, a person engaged in a certain art or profession",
+    "vi": "gia"
+  },
+  {
+    "id": "56",
+    "cn": "十",
+    "pinyin": "shí",
+    "en": "ten",
+    "vi": "thập"
+  },
+  {
+    "id": "57",
+    "cn": "用",
+    "pinyin": "yòng",
+    "en": "to use",
+    "vi": "dụng"
+  },
+  {
+    "id": "58",
+    "cn": "发",
+    "pinyin": "fā／fà",
+    "en": "to send out, to show (one‘s feeling), to issue, to develop / hair",
+    "vi": ""
+  },
+  {
+    "id": "59",
+    "cn": "天",
+    "pinyin": "tiān",
+    "en": "day, sky, heaven",
+    "vi": "thiên"
+  },
+  {
+    "id": "60",
+    "cn": "如",
+    "pinyin": "rú",
+    "en": "as (if), such as",
+    "vi": "như"
+  },
+  {
+    "id": "61",
+    "cn": "然",
+    "pinyin": "rán",
+    "en": "correct, right, so, thus, like this, -ly",
+    "vi": ""
+  },
+  {
+    "id": "62",
+    "cn": "作",
+    "pinyin": "zuò",
+    "en": "to regard as, to take (somebody) for, to do, to make",
+    "vi": "tác"
+  },
+  {
+    "id": "63",
+    "cn": "方",
+    "pinyin": "fāng",
+    "en": "square, quadrilateral, direction, just",
+    "vi": "phương"
+  },
+  {
+    "id": "64",
+    "cn": "成",
+    "pinyin": "chéng",
+    "en": "finish, complete, accomplish, become, turn into, win, succeed",
+    "vi": "thành"
+  },
+  {
+    "id": "65",
+    "cn": "者",
+    "pinyin": "zhě",
+    "en": "-ist, -er (person), person (who does something)",
+    "vi": "giả"
+  },
+  {
+    "id": "66",
+    "cn": "多",
+    "pinyin": "duō",
+    "en": "many, much, a lot of, numerous, multi-",
+    "vi": "đa"
+  },
+  {
+    "id": "67",
+    "cn": "日",
+    "pinyin": "rì",
+    "en": "day, sun, date, day of the month",
+    "vi": "nhật"
+  },
+  {
+    "id": "68",
+    "cn": "都",
+    "pinyin": "dōu",
+    "en": "all, both (if two things are involved), entirely (due to)each, even, already",
+    "vi": ""
+  },
+  {
+    "id": "69",
+    "cn": "三",
+    "pinyin": "sān",
+    "en": "three",
+    "vi": "tam"
+  },
+  {
+    "id": "70",
+    "cn": "小",
+    "pinyin": "xiǎo",
+    "en": "small, tiny, few, young",
+    "vi": "tiểu"
+  },
+  {
+    "id": "71",
+    "cn": "军",
+    "pinyin": "jūn",
+    "en": "army, military, arms",
+    "vi": "quân"
+  },
+  {
+    "id": "72",
+    "cn": "二",
+    "pinyin": "èr",
+    "en": "two",
+    "vi": "nhị"
+  },
+  {
+    "id": "73",
+    "cn": "无",
+    "pinyin": "wú",
+    "en": "-less, not to have, no, none, not, to lack, un-",
+    "vi": "vô"
+  },
+  {
+    "id": "74",
+    "cn": "同",
+    "pinyin": "tóng",
+    "en": "like, same, similar, together, alike, with",
+    "vi": "đồng"
+  },
+  {
+    "id": "75",
+    "cn": "么",
+    "pinyin": "me",
+    "en": "(interrog. suff.)",
+    "vi": ""
+  },
+  {
+    "id": "76",
+    "cn": "经",
+    "pinyin": "jīng",
+    "en": "classics, sacred book, pass through, to undergo, scripture",
+    "vi": ""
+  },
+  {
+    "id": "77",
+    "cn": "法",
+    "pinyin": "fǎ",
+    "en": "law, method, way, Buddhist teaching",
+    "vi": "pháp"
+  },
+  {
+    "id": "78",
+    "cn": "当",
+    "pinyin": "dāng / dàng",
+    "en": "to be, to act as, manage, withstand, when, during, ought, should, match equally, equal, same, obstruct, just at (a time or place), on the spot, right, just at / at or in the very same…, to pawn, suitable, adequate, fitting, proper, replace, represent",
+    "vi": ""
+  },
+  {
+    "id": "79",
+    "cn": "起",
+    "pinyin": "qǐ",
+    "en": "qǐ：to rise, to raise, to get up",
+    "vi": "khởi"
+  },
+  {
+    "id": "80",
+    "cn": "与",
+    "pinyin": "yú / yǔ / yù",
+    "en": "(interrog. part.) / and, to give, together with / take part in",
+    "vi": ""
+  },
+  {
+    "id": "81",
+    "cn": "好",
+    "pinyin": "hǎo / hào",
+    "en": "good, well / be fond of",
+    "vi": "hảo"
+  },
+  {
+    "id": "82",
+    "cn": "看",
+    "pinyin": "kān / kàn",
+    "en": "to look after, to take care of, to watch, to guard / it depends, think, to see, to look at",
+    "vi": ""
+  },
+  {
+    "id": "83",
+    "cn": "学",
+    "pinyin": "xué",
+    "en": "learn, study, science, -ology",
+    "vi": "học"
+  },
+  {
+    "id": "84",
+    "cn": "进",
+    "pinyin": "jìn",
+    "en": "advance, enter, to come in",
+    "vi": ""
+  },
+  {
+    "id": "85",
+    "cn": "种",
+    "pinyin": "zhǒng / zhòng",
+    "en": "kind, type, race (of people), seed, type / to grow, to plant",
+    "vi": ""
+  },
+  {
+    "id": "86",
+    "cn": "将",
+    "pinyin": "jiāng / jiàng",
+    "en": "(will, shall, future tense), ready, prepared, to get, to use / a general",
+    "vi": ""
+  },
+  {
+    "id": "87",
+    "cn": "还",
+    "pinyin": "hái / huán",
+    "en": "also, in addition, more, still, else, still, yet, (not) yet / (surname), pay back, return",
+    "vi": ""
+  },
+  {
+    "id": "88",
+    "cn": "分",
+    "pinyin": "fēn / fèn",
+    "en": "to divide, minute, (a measure word), (a unit of length = 0.33centimeter) / part",
+    "vi": "phân"
+  },
+  {
+    "id": "89",
+    "cn": "此",
+    "pinyin": "cǐ",
+    "en": "this, these",
+    "vi": ""
+  },
+  {
+    "id": "90",
+    "cn": "心",
+    "pinyin": "xīn",
+    "en": "heart, mind",
+    "vi": "tâm"
+  },
+  {
+    "id": "91",
+    "cn": "前",
+    "pinyin": "qián",
+    "en": "before, in front, ago, former, previous, earlier, front",
+    "vi": "tiền"
+  },
+  {
+    "id": "92",
+    "cn": "面",
+    "pinyin": "miàn",
+    "en": "face, side, surface, aspect, top, face, flour, noodles",
+    "vi": "diện"
+  },
+  {
+    "id": "93",
+    "cn": "又",
+    "pinyin": "yòu",
+    "en": "(once) again, also, both… and…, again",
+    "vi": ""
+  },
+  {
+    "id": "94",
+    "cn": "定",
+    "pinyin": "dìng",
+    "en": "to set, to fix, to determine, to decide, to order",
+    "vi": "định"
+  },
+  {
+    "id": "95",
+    "cn": "见",
+    "pinyin": "jiàn / xiàn",
+    "en": "to see, to meet, to appear (to be something), to interview / appear",
+    "vi": "kiến"
+  },
+  {
+    "id": "96",
+    "cn": "只",
+    "pinyin": "zhī／zhǐ",
+    "en": "only, just, but, measure word for one of a pair",
+    "vi": ""
+  },
+  {
+    "id": "97",
+    "cn": "主",
+    "pinyin": "zhǔ",
+    "en": "to own, to host, master, lord, primary",
+    "vi": "chủ"
+  },
+  {
+    "id": "98",
+    "cn": "没",
+    "pinyin": "méi／mò",
+    "en": "(negative prefix for verbs), have not, not / sink, disappear",
+    "vi": ""
+  },
+  {
+    "id": "99",
+    "cn": "公",
+    "pinyin": "gōng",
+    "en": "just, honorable (designation), public, common",
+    "vi": ""
+  },
+  {
+    "id": "100",
+    "cn": "从",
+    "pinyin": "cóng",
+    "en": "from, since，obey, observe, follow",
+    "vi": "tòng"
+  }
 ]
