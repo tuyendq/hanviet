@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title><%= title %> - <%= charOfDay.ch %></title>
+  <title><%= title %> | <%= charOfDay.cn %> - <%= charOfDay.vi %></title>
   <% include ../partials/head %>
 </head>
 
@@ -29,7 +29,7 @@
   </footer>
 
   <script>
-    var char = '<%= charOfDay.ch %>';
+    var char = '<%= charOfDay.cn %>';
     var writer = HanziWriter.create('grid-background-target', char, {
       strokeColor: '#000000',
       radicalColor: '#5A0008'
